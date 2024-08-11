@@ -1,48 +1,44 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Ramses</title>
-    <!-- entrada de enlaces a font awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <!-- Enlaces a Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="Estilo/estilo.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio Ramses</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="Estilo/estilo.css">
+    </head>
 <body class="bg-primary text-white">
     <div class="wrapper">
         <header class="text-center py-4 header-bg">
-            <img src="logo-placeholder.png" alt="Logo de Ramses Portfolio" class="logo animated" id="logo">
-        <div class="header-content">
-            <h1 class="portfolio-title animated text-center" id="title">Portfolio Ramses</h1>
-            <p class="portfolio-description animated text-center" id="description">Bienvenido a mi portafolio web</p>
-        </div>
+            <img src="imagen/header.jpg" alt="Logo de Ramses Portfolio" class="logo animated" id="logo">
+            <div class="header-content">
+                <h1 class="portfolio-title" id="title">Ramses</h1>
+                <p class="portfolio-description" id="description">Welcome to my portfolio</p>
+            </div>
         </header>
 
-         <div class="container mt-5 animated" id="about-container">
+        <div class="container mt-5 animated" id="about-container">
             <section id="about" class="bg-info p-4 rounded">
-                <h2>Acerca de mí</h2>
-                <p> un apasionado del desarrollo web. Aquí puedes ver algunos de mis proyectos y habilidades.</p>
+                <h2>about me</h2>
+                <p>I'm a web developer and systems engineering student with 1 year of experience, I like hamburgers and video games, You can view my Front-end web development projects for your needs</p>
             </section>
 
             <section id="projects" class="bg-info p-4 rounded">
-                <h2>Mis Proyectos</h2>
-        <div class="row">
-            
-            <div class="col-md-4">
-                    <a href="https://www.ejemplo1.com" target="_blank"><img src="proyecto1.jpg" alt="Proyecto 1" class="project-image"></a>
-            </div>
-
-            <div class="col-md-4">
-                    <a href="https://www.ejemplo2.com" target="_blank"><img src="proyecto2.jpg" alt="Proyecto 2" class="project-image"></a>
-            </div>
-
-            <div class="col-md-4">
-                    <a href="https://www.ejemplo3.com" target="_blank"><img src="proyecto3.jpg" alt="Proyecto 3" class="project-image"></a>
-            </div>
-        </div>
+                <div class="row">
+                    <div class="col-md-8">
+                        <ul class="project-list">
+                            <li>
+                                <a href="https://www.ejemplo1.com" target="_blank">Proyecto 1</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <img src="imagen/header.jpg" alt="Imagen de Ejemplo" class="img-fluid">
+                    </div>
+                </div>
             </section>
         </div>
     </div>
@@ -60,8 +56,6 @@
             </p>
         </div>
     </footer>
-
-
 
     <!-- Enlaces a Bootstrap JS y jQuery -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
