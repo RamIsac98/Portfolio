@@ -166,14 +166,11 @@ span{
 }
 
 /*edicion de imagen*/
-.home-img{
-    border-radius: 50%;
-}
+
 
 .home-img img{
     position: relative;
     width: 32vw;
-    border-radius: 50%;
     box-shadow: 0 0 25px solid #141d82;
     cursor: pointer;
     transition: 0.2s linear;
