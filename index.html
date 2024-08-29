@@ -6,7 +6,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
         <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/media.css">
         <title>Portfolio Website | Ramses</title>
     </head>
     <body>
@@ -15,22 +17,22 @@
 
             <nav>
                 <ul>
-                    <li><a href="#" class="active">Home</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Skills</a></li>
-                    <li><a href="#">Education</a></li>
-                    <li><a href="#">Experience</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#Skills">Skills</a></li>
+                    <li><a href="#Proyects">Proyects</a></li>
+                    <li><a href="#Contact">Contact</a></li>
                 </ul>
             </nav>
         </header>
-        <section class="home">
+
+        <!--home -->
+        <section class="home" id="home">
             <div class="home-img">
-                <img src="img/logo.png" alt>
+                <img src="img/img.png" class="img-home" alt="logo-home">
             </div>
             <div class="home-content">
                 <h1>Hi, It's <span>Ramses</span></h1>
-                <h3 class="typing-text">I'm a <span></span></h3>
+                <h3 class="typing-text-home">I'm a <span></span></h3>
                 <p>I like to design websites with a modern and simple style. I
                     also like video games. My goal as a developer is to improve
                     each project.</p>
@@ -45,36 +47,77 @@
             </div>
         </section>
 
-        <section class="content-conteiner">
+        <!--fin home-->
+
+        <!--skills-->
+        <section class="content-conteiner-experience" id="Skills">
+            <div class="conteiner__experience">
+                <div class="info-conteiner-experience">
+                    <h3 class="typing-text">Skills</h3>
+                    <p class="para-experience">These are some of the programming languages ​​I use.</p>
+                        <div class="conteiner-experience">
+                            <div class="programing-icon">
+                            <i class='bx bxl-html5' style='color:#ff7700'  ></i>
+                            <i class='bx bxl-css3' style='color:#00a6ec'  ></i>
+                            <i class='bx bxl-python' style='color:#0e0e0e'  ></i>
+                            <i class='bx bxl-bootstrap' style='color:#7400ff'  ></i>
+                            </div>
+                        </div>
+                </div>
+
+                
+            </div>
+        </section>
+
+        <!--Proyects-->
+        <section class="content-conteiner" id="Proyects">
             <div class="product-conteiner">
                 <div class="info-conteiner">
-                    <h3 class="typing-text">Services</h3>
-                    <p>You will be able to view the projects you carry out as a web developer</p>
+                    <h3 class="typing-text">Proyects</h3>
+                    <p class="para-proyects">You will be able to view the projects you carry out as a web developer</p>
                 </div>
                 <div class="product">
                     <a href="https://ramisac98.github.io/Login-Ramses/" target="_blank"
                         class="product-title">Login</a>
-                        <div class="product-img">
-                            <img src="img/img.png" alt="Login"
-                            class="project-image" >
-                        </div>
+                        
                 </div>
 
                 
                 <div class="product">
                     <a href="https://ramisac98.github.io/website-Ramses/" target="_blank"
                         class="product-title">Website</a>
-                        <div class="product-img">
-                            <img src="img/ing.png" alt="Website"
-                            class="project-image" >
-                        </div>
+                       
                 </div>
 
                 
-                <div class="info-conteiner">
-                    <p>the site is still under maintenance!!!</p>
+                <div class="product">
+                    <a href="https://ramisac98.github.io/Website_Bootstrap_Ramses/" target="_blank"
+                        class="product-title">Store</a>
+                       
                 </div>
                 
+             
+                
+            </div>
+        </section>
+
+
+        <!--contact-->
+        <section class="contact-conteiner" id="Contact">
+            <div class="contact__container">
+                <h2 class="typing-text">Contacto</h2>
+                <form id="contact-form">
+                    <label for="name" class="typing-text-contact">Nombre:</label>
+                    <input type="text" id="name" name="name" required placeholder="Full Name">
+        
+                    <label for="email" class="typing-text-contact">Correo Electrónico:</label>
+                    <input type="email" id="email" name="email" required placeholder="Email">
+        
+                    <label for="comment" class="typing-text-contact">Deja tu comentario:</label>
+                    <textarea id="comment" name="comment" rows="4" required placeholder="Your Message"></textarea>
+        
+                    <button type="submit" class="submit-button">Enviar</button>
+                </form>
             </div>
         </section>
     </body>
