@@ -2,6 +2,8 @@
     .home{
         gap: 4rem;
     }
+
+    
 }
 
 
@@ -59,9 +61,18 @@
 
 }
 
-@media (max-width: 1000px){
-    .home{
-        gap: 4rem;
+@media(max-width:430px){
+    .programing-icon{
+        font-size: 70px;
     }
+
+    .product-conteiner{
+        height: 50%;
+    }
+
+   
+    
+
 }
+
 
