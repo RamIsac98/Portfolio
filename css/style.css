@@ -18,9 +18,8 @@ body{
     width: 100%;
     height: 100vh;
     overflow-x: hidden;
-    background-color: #424B54;
-
-
+    background-image:  url(../img/mh.jpg);
+    background-size: cover;
     color: white;
 }
 
@@ -30,7 +29,7 @@ header{
     left: 0;
     width: 100%;
     padding: 1rem 9%;
-    background-color: #6F8890;
+    background-color: #012A36;
     filter: drop-shadow(10px);
     display: flex;
     justify-content: space-between;
@@ -42,7 +41,7 @@ header{
 
 .logo{
     font-size: 3rem;
-    color: #424B54;
+    color: #D3D0CB;
     font-weight: 800;
     cursor: pointer;
     transition: 0.5s ease;
@@ -55,7 +54,7 @@ header{
 /*edicion del navegador*/
 nav ul a{
     font-size: 1.8rem;
-    color: white;
+    color: #D3D0CB;
     font-weight: 500;
     transition: 0.3s ease;
     border-bottom: 3px solid transparent;
@@ -103,7 +102,6 @@ section{
     justify-content: center;
     align-items: center;
     gap: 8rem;
-    background-color: #424B54;
 }
 /* edicion del contenido*/
 .home .home-content h1{
@@ -113,7 +111,7 @@ section{
 }
 .home-content {
     padding: 25px;
-    background-color: #9BC4CB;
+    background: transparent;
     border: 2px solid rgba(255, 255, 255, 2);
     backdrop-filter: blur(20px);
     box-shadow: 0 0 10px black;
@@ -121,7 +119,7 @@ section{
 }
 
 span{
-    color: #D36135;
+    color: #000000;
 }
 
 .home-content h3, .product-conteiner .info-conteiner h3{
@@ -137,59 +135,35 @@ span{
 /*edicion de imagen*/
 
 
-.home-img img{
-    width: 32vw;
-    border-radius: 20px;
-    transition: 0.3s ease;
 
+
+.btn-start {
+    margin-top: 5%;
 }
 
-.home-img img:hover{
-    transform: scale(1.1) translateY(-2px);
-
-}
-
-/*estilo de iconos*/
-
-.social-icons a{
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    width: 4rem;
-    height: 4rem;
-    background-color: transparent;
-    border: 0.2rem solid #424B54;
-    font-size: 2rem;
-    border-radius: 50%;
-    margin: 3rem 1.5rem 3rem 0;
-    transition: 0.3s ease;
-    color: #424B54;
-}
-
-.social-icons a:hover{
-    color: #000000;
-    transform: scale(1.3) translateY(-5px);
-    background-color: #FFFD98;
-    box-shadow: 0  0 25px #FFFD98;
+.btn__start{
+    
+  display: flex;
+  justify-content: center;
 }
 
 .btn{
-    display: inline-block;
+    margin-top: 2.5rem;
     padding: 1rem 2.8rem;
     background: transparent;
     border-radius: 4rem;
     font-size: 1.6rem;
-    color: #424B54;
+    color: #ffffff;
     letter-spacing: 0.3rem;
     font-weight: 600;
-    border: 2px solid #424B54;
+    border: 2px solid #000000;
     transition: 0.3s ease;
     cursor: pointer;
 }
 
 .btn:hover{
     transform: scale3d(1.03);
-    background-color: #FFFD98;
+    background-color: #ff3c00;
     color: #000000;
     box-shadow: 0 0 25px #FFFD98;
 }
@@ -230,7 +204,7 @@ span{
 
 @keyframes cursor{
     to{
-        border-left: 3px solid #D36135;
+        border-left: 3px solid #f7f7f7;
     }
 }
 
@@ -251,15 +225,18 @@ span{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url('../img/img.jpg');
+    background-size: cover;
+
 
 }
 
 
 
 .conteiner__experience {
-    width: 100%;
+    width: 80%;
     padding: 25px;
-    background-color: #9BC4CB;
+    background: transparent;
     border: 2px solid rgba(255, 255, 255, 2);
     backdrop-filter: blur(20px);
     box-shadow: 0 0 10px rgba(0, 0, 0, 2);
@@ -281,13 +258,13 @@ span{
     text-align: center; 
 }
 
-.conteiner-experience{
+ .conteiner-experience{
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
     height: 30vh;
-}
+} 
 
 .programing-icon {
     font-size: 100px;
@@ -296,18 +273,15 @@ span{
 
 
 }
-
-.programing-icon i{
-    transition: 0.3s ease;
-
-}
-/*animacion de iconos*/
-
-.programing-icon i:hover{
-    transform: scale(1.3) translateY(-5px);
-    
+.programing-icon svg {
+    width: 50px;
+    margin: 20px;
+    margin-top: 20px;
 
 }
+
+
+
 
 
 .para-education{
@@ -317,9 +291,10 @@ span{
 .para-experience{
     font-size: 1.6rem;
     padding-top: 20px;
+    margin-bottom: 10px;
 }
 
-/*edicion de skill
+/*edicion de skill fin*/
 
 /*edicion de proyectos*/
 
@@ -329,6 +304,8 @@ span{
     justify-content: center;
     align-items: center;
     gap: 8rem;
+    background-image: url(../img/ima.jpg);
+    background-size: cover;
 
 }
 
@@ -337,7 +314,7 @@ span{
 .product-conteiner {
     width: 100%;
     padding: 25px;
-    background-color: #9BC4CB;
+    background: transparent;
     border: 2px solid rgba(255, 255, 255, 2);
     backdrop-filter: blur(20px);
     box-shadow: 0 0 10px rgba(0, 0, 0, 2);
@@ -363,45 +340,45 @@ span{
 
 }
 
-.product{
+.proyecto {
+    
 	overflow: hidden;
 	text-align: center;
 	width: 240px;
-	height: 400px;
 	padding: 2rem;
 	display: flex;
 	flex-direction: column;
-	align-items:start;
+	align-items:center;
 	border-radius: 1.2rem;
     margin: 20px;
 }
 
 
+
 /* animacion de los botones*/
-.product-title{
+.proyecto-title{
     display: inline-block;
     padding: 1rem 2.8rem;
     margin: 2rem;
     background: transparent;
     border-radius: 4rem;
     font-size: 1.6rem;
-    color: #424B54;
+    color: #ffffff;
     letter-spacing: 0.3rem;
     font-weight: 600;
-    border: 2px solid #424B54;
+    border: 2px solid #000000;
     transition: 0.3s ease;
     cursor: pointer;
 }
 
-.product-title:hover{
+.proyecto-title:hover{
     transform: scale3d(1.03);
-    background-color: #D36135;
+    background-color: #ff3c00;
     color: #ffffff;
-    box-shadow: 0 0 25px #D36135;
-    border-color: #D36135;
-    transform: scale(1.3) translateY(-5px);
+    box-shadow: 0 0 25px #FFFD98;
+    border-color: #000000;
 
-}
+} 
 
 /*contact*/
 
@@ -410,13 +387,14 @@ span{
     justify-content: center;
     align-items: center;
     gap: 8rem;
+    background-color: #012A36;
 }
 
 .contact__container{
     
     width: 100%;
     padding: 25px;
-    background-color: #9BC4CB;
+    background-color: #D3D0CB;
     border: 2px solid rgba(255, 255, 255, 2);
     backdrop-filter: blur(20px);
     box-shadow: 0 0 10px rgba(0, 0, 0, 2);
@@ -467,10 +445,9 @@ textarea {
 .submit-button:hover {
     
     transform: scale3d(1.03);
-    background-color: #D36135;
+    background-color: #ff3c00;
     color: #ffffff;
-    box-shadow: 0 0 25px #D36135;
-    border-color: #D36135;
-    transform: scale(1.3) translateY(-5px);
+    box-shadow: 0 0 25px #000000;
+    border-color: #000000;
 
 }
