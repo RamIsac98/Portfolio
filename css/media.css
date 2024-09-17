@@ -1,3 +1,15 @@
+@media (max-width: 1280px){
+    .para-experience{
+        margin-bottom: 70px;
+    }
+
+    .product-conteiner {
+        height: 75vh;
+    }
+
+    
+}
+
 @media (max-width: 1000px){
     .home{
         gap: 4rem;
@@ -61,16 +73,129 @@
 
 }
 
-@media(max-width:430px){
+@media(max-width:853px){
+
+    .para-experience{
+        margin-bottom: 40px;
+    }
+    
+  
+
+   
+    
+
+}
+
+@media(max-width:768px){
+
+    .para-experience{
+        margin-bottom: 70px;
+    }
+    
+    .proyecto {
+        margin: 10px;
+    }
+  
+
+   
+    
+
+}
+
+@media(max-width:540px){
     .programing-icon{
-        font-size: 70px;
+        font-size: 10px;
+    }
+
+    .programing-icon svg {
+        width: 40px;
+        margin: 10px;
+        margin-top: 10px;
+    
     }
 
     .product-conteiner{
         height: 50%;
     }
 
+    .para-experience{
+        margin-bottom: 40px;
+    }
+    .proyecto{
+        height: 0%;
+    }
+
+  
+
    
+    
+
+}
+
+@media(max-width:430px){
+    .programing-icon{
+        font-size: 10px;
+    }
+
+    .programing-icon svg {
+        width: 40px;
+        margin: 10px;
+        margin-top: 10px;
+    
+    }
+
+    .product-conteiner{
+        height: 50%;
+    }
+
+    .para-experience{
+        margin-bottom: 40px;
+    }
+    .proyecto{
+        height: 0%;
+    }
+
+  
+
+   
+    
+
+}
+
+@media(max-width:360px){
+    .programing-icon{
+        font-size: 10px;
+    }
+
+    .programing-icon svg {
+        width: 30px;
+        margin: 10px;
+        margin-top: 10px;
+    
+    }
+
+    .product-conteiner{
+        height: 50%;
+    }
+
+    .para-experience{
+        margin-bottom: 40px;
+    }
+    .proyecto{
+        height: 0%;
+    }
+
+
+
+   
+    
+
+}
+
+
+
+
+
     
 
 }
